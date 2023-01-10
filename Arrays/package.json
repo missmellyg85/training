@@ -1,0 +1,11 @@
+{
+  "name": "arrays",
+  "version": "1.0.0",
+  "description": "Learn about some common Javascript Array methods",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "missywilliams85@gmail.com",
+  "license": "ISC",
+  "type": "module"
+}
