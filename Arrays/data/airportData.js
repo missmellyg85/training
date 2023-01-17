@@ -19,9 +19,9 @@ export const airports = [
   },
   {
     id: 4,
-    name: "Hamilton Island Airport",
-    code: "HTI",
-    elevation: "15",
+    name: "Hermanos Serdán International Airport",
+    code: "PBC",
+    elevation: "7361",
   },
   {
     id: 5,
@@ -49,14 +49,14 @@ export const airports = [
   },
   {
     id: 9,
-    name: "Mong Tong Airport",
-    code: "MGK",
-    elevation: "1840",
+    name: "Manassas Regional Airport/Harry P. Davis Field",
+    code: "MNZ",
+    elevation: "192",
   },
   {
     id: 10,
-    name: "Cache Creek-Ashcroft Regional Airport",
-    code: "YZA",
-    elevation: "2034",
+    name: "Halim Perdanakusuma International Airport",
+    code: "HLP",
+    elevation: "84",
   },
 ];

@@ -1,5 +1,5 @@
 /* 
-    Learning about Array.prototype.forEach()
+    Learning about Array.prototype.map()
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 */
 import { airports } from "./data/airportData.js";
