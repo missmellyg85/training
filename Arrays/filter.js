@@ -19,7 +19,7 @@ console.log(citiesWithStates);
 
 /*
     Practice
-    1) Using the imported `airports`, which includes id, name, code, and elevation,
+    Using the imported `airports`, which includes id, name, code, and elevation,
     filter for the International airports
 */
 // Write your code here
