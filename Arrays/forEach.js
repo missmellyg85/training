@@ -1,8 +1,9 @@
 /* 
     Learning about Array.prototype.forEach()
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
 */
-import airportData from "./airportData.json" assert { type: "json" };
-import cityData from "./cityData.json" assert { type: "json" };
+import { airports } from "./data/airportData.js";
+import { cities } from "./data/cityData.js";
 
 // Use forEach to iterate an array
 
@@ -34,7 +35,7 @@ myNumbers.forEach((number) => {
     What if we have an array of objects? Let's go ahead and work with our airplane data
     Uncomment this block and run
 */
-// airportData.forEach((airport) => {
+// airports.forEach((airport) => {
 //   console.log(airport);
 // });
 // We see in the output that we have an array of objects. What if we want to access the properties separately?
@@ -44,20 +45,20 @@ myNumbers.forEach((number) => {
     Deconstructing objects in a callback
     Uncomment this block and run
 */
-// airportData.forEach(({ name, elevation }) => {
+// airports.forEach(({ name, elevation }) => {
 //   console.log(`The elevation for ${name} is ${elevation} feet`);
 // });
 
 /*
     Practice
-    Using the imported `cityData`, which includes city, state, country,
+    Using the imported `cities`, which includes city, state, country, and currency,
     print out a 1-indexed numbered list that shows "city, state" if there is a state, 
     otherwise it should print "city, country"
 
     For example, your first few outputs should show:
-        1. Mejdan - Obilićevo, Bosnia and Herzegovina
-        2. Johnson City, Tennessee
-        3. Skomlin, Poland
+        1. Piekielnik, Poland
+        2. Rafael Hernandez Ochoa, Veracruz Llave
+        3. Enewetak, Marshall Islands
         ...
 */
 // Write your code here
